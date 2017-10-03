@@ -9,8 +9,43 @@ padding: 54px;
 border-left: 6px solid #dddddd;
 }
   
-
+.continue {
+	text-align: right;
+	color: #dd0000;
+	border-bottom: solid;
+	border-color: rgb(218, 222, 232);
+	border-bottom-width: 1px;
+}
+.continue a:hover {
+	color: #aa0000;
+}
   h1 {
   	color: #dd0000;
-    }  
-    
+    } 
+
+  h3 {
+  	color: black;
+  }
+ nav a {
+	color: #dd0000;
+  }
+
+.date {
+	color: #cccccc;
+}
+
+.article-title {
+	color: black;
+}
+
+footer {
+	color: #bbbbbb;
+}
+
+img {
+	max-width: 100%;
+}
+a:hover { 
+	color: black;
+}
+
