@@ -1,0 +1,16 @@
+body {
+	font-family: Lato;
+	color: #444444;
+    line-height: 1.5;}
+
+.container {
+width: 720px;
+padding: 54px;
+border-left: 6px solid #dddddd;
+}
+  
+
+  h1 {
+  	color: #dd0000;
+    }  
+    
