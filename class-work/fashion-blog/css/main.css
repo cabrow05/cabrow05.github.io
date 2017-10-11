@@ -15,27 +15,33 @@ border-left: 6px solid #dddddd;
 	border-bottom: solid;
 	border-color: rgb(218, 222, 232);
 	border-bottom-width: 1px;
+	font-size: 12px;
 }
 .continue a:hover {
 	color: #aa0000;
 }
   h1 {
   	color: #dd0000;
+  	font-weight: 300;
     } 
 
   h3 {
   	color: black;
+  	font-size: 15px;
   }
  nav a {
 	color: #dd0000;
+	font-size: 12px;
   }
 
 .date {
 	color: #cccccc;
+	font-weight: 300;
 }
 
 .article-title {
 	color: black;
+	font-weight: 300;
 }
 
 footer {
