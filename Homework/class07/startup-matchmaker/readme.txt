@@ -6,14 +6,14 @@ Three Google Fonts are being used:
 "Oswald"
 
 body
-font-family: "Source Sans Pro"
+font-family: "Source Sans Pro" **
 
 h1/logo
-font-family: "Merriweather", serif;
+font-family: "Merriweather", serif; **
 
 .tagline (two brains are better...)
-font-family: "Merriweather";
-background: #C6C6C6;
+font-family: "Merriweather"; **
+background: #C6C6C6; **
 
 h2 (Create a Profile; Find a Developer; Find a Designer)
 "Merriweather", serif;
