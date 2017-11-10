@@ -11,6 +11,36 @@
 	  title: 'New York, NY'
 	});
 
+var locations = [
+	  {
+	    lat: 40.7484444,
+	    lng: -73.9878441,
+	    title: 'Empire State Building',
+	  },
+	  {
+	    lat: 40.7516248,
+	    lng: -73.9776907,
+	    title: 'Chrysler Building',
+	  },
+	  {
+	    lat: 40.7339877,
+	    lng: -73.980817,
+	    title: 'Flatiron Building',
+	  },
+	];
+
+locations.forEach(processLocation);
+
+	 function processLocation (location) {
+	  var marker = new google.maps.Marker({
+	    position: {
+	      lat: location.lat,
+	      lng: location.lng,
+	    },
+	    title: location.title,
+	    map: map,
+	  });
+	}
       }
 
       initMap()
